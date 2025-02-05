@@ -4,3 +4,4 @@ Operacoes.Adicao(
     Operacoes.ObterValor(),
     Operacoes.ObterValor()
 );
+

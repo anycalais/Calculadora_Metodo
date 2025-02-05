@@ -1,3 +1,5 @@
+using Layout;
+
 namespace Calculadora
 {
     class Operacoes
@@ -5,7 +7,7 @@ namespace Calculadora
         public static decimal ObterValor()
         {
          repetir:
-          Console.Write("Informe  o valor: ");
+          Formatacao.Cor("Informe  o valor: ", ConsoleColor.Red);
           if (!decimal.TryParse(Console.ReadLine(), out decimal valor))
           {
             Console.WriteLine("Valor inválido! ");
